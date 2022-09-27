@@ -1,0 +1,24 @@
+/* PC */
+@media (min-width: 64em) {
+
+}
+
+
+
+@media (max-width: 54.6em) {
+    .main {
+        margin-right: 0;
+    }
+    .left {
+        display: none;
+    }
+
+
+}
+
+
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+
+}

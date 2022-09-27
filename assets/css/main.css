@@ -1,0 +1,210 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-right: 46px;
+    margin-top: 32px;
+}
+
+.left {
+    height: 581.15px;
+    min-width: 426px;
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+    background-repeat: no-repeat;
+    margin-right: 32px;
+    background-size: 468.32px 634.15px;
+}
+
+#social_img {
+    position: relative;
+    left: 159px;
+    top: 27px;
+    /* animation: modalFadeOut 0.5s linear 3.8s ;
+    animation-direction: alternate; */
+}
+
+.right {
+   height: 100%;
+   margin-top: 13px;
+}
+
+.box-login {
+    display: flex;
+    flex-direction:column;
+    border: 1px solid rgba(219, 219, 219, 1);
+    background-color: #ffffff;
+    width: 351px;
+    padding: 10px 0;
+}
+
+.box-login img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 36px 88px 32px 88px;
+}
+
+.box-login__body {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin: auto;
+    width: 268px;
+}
+
+.box-login__body input {
+    all: upset;
+    width: 100%;
+    padding: 10px 0 10px 8px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color:   rgb(250, 250, 250);
+    font-size: 1.2rem;
+}
+
+.box-login__body button {
+    width: 100%;
+    padding: 6px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #ffffff;
+    background-color: #b2dffc;
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+}   
+
+.box-login__body-or {
+    display: flex;
+    margin-top: 17px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box-login__body-or--line {
+    background-color: #DBDBDB;
+    height: 0.8px;
+    width: 100px;
+}
+
+.box-login__body-or-text {
+    color: rgba(142,142,142,1);
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 15px;
+    margin: 0 18px;
+}
+
+.box-login__body-login-with-fb {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 500;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 29px;
+    color: #385185;
+}
+
+.box-login__body-login-with-fb svg {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.box-login__body-forget-password {
+    color: #00376b;
+    margin-top: 19px;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.box-login__body-sign-in {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box-login__body-sign-in a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(0, 149, 246);
+    margin-left: 4px;
+}
+
+.box-login__body-sign-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 22.5px;
+}
+
+.box-login__download {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-login__download p {
+    font-size: 1.4rem;
+    display: block;
+    margin: 20px 0;
+}
+
+.box-login__download-icon .ios-icon {
+    height: 40px;
+    object-fit: contain;
+}
+.box-login__download-icon img {
+    margin: 2px 3px;
+}
+
+.footer {
+    margin-top: 54px;
+}
+
+.footer-head {
+    display: block;
+    margin: auto;
+    margin-bottom: 58px;
+
+}
+
+.footer-head__inf {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.footer-head__inf > a{
+    display: block;
+    padding: 0 8px 0;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin-top: 8px;
+}
+
+
+.footer-head__inf-thirst {
+    margin-top: 10px;
+    margin-bottom: 61px;
+}
+
+.footer-head__inf-thirst a {
+    font-size: 1.2rem;
+}
+
+
+@keyframes modalFadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.2;
+    }
+}
